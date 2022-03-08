@@ -1,0 +1,19 @@
+Elements nécessaires au lancement du test:
+Dotnet 6
+xUnit
+
+Pour lancer le test placez dans le dossier "Test" puis lancez la commande:
+$dotnet test
+
+Allez dans /Test/questions pour voir les classes servant à repésenter les questions.
+
+Allez dans /Test/questionTest/UnitTest.cs pour voir les tests.
+
+Certains tests fait avec XUnit sont paramétrables, ils sont marqués par l'identificateur [Theory]
+Vous pouvez soit ajouter des paramètres à tester avec l'ajout d'une ligne:
+[InLineData("Mon entrée", "Ma réponse attendue")]
+Respectez bien le type attendue par la fonction de test.
+
+Les questions 1 à 3 ont été réalisées.
+
+Les questions 4 à 6 étant jugées trop dépendantes de l'environnement initial pour être réalisé dans un temps résonnable.
